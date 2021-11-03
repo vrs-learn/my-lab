@@ -1,1 +1,4 @@
 user_credentials.csv
+.aws/credentials
+ec2-key.pem
+ec2-key*

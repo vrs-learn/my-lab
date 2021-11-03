@@ -1,0 +1,11 @@
+Resources:
+  MyIntance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: ap-south-1a
+      ImageId: ami-011c99152163a87ae
+      InstanceType: t2.micro
+      KeyName: ec2-key-new
+      SecurityGroupIds: 
+        - sg-0b348257708eb9e23
+        - sg-0efe720d5fb83e329
